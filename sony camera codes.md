@@ -42,24 +42,25 @@ address used is 0x1e3a
 
 these codes were discovered on sony a6300 while on shooting screen
 
-0x14 - change view
-0x29 - nfc symbol blinked (further investigation needed)
-0x2d - shutter (in bulb mode opens shutter, sending it 2nd tine closes the shutter)
-0x37 - delayed shutter
-0x38 - menu??
-0x47 - plyas trough images in galery
-0x48 - starts video recording
-0x4a - zoom in - mildly
-0x4b - zoom out - mildly
 
-0x4c - zoom in - fast
-0x4d - zoom out - fast
+    0x14 - change view
+    0x29 - nfc symbol blinked (further investigation needed)
+    0x2d - shutter (in bulb mode opens shutter, sending it 2nd tine closes the shutter)
+    0x37 - delayed shutter
+    0x38 - menu??
+    0x47 - plyas trough images in galery
+    0x48 - starts video recording
+    0x4a - zoom in - mildly
+    0x4b - zoom out - mildly
 
-0x65 - shutter (in bulb mode takes picture immediately) - it's similar to 0x2d
-0x66 - shutter, but doesn't repeat 
+    0x4c - zoom in - fast
+    0x4d - zoom out - fast
 
-speculation:
-0x66 - open shutter
-0x65 - close shutter
+    0x65 - shutter (in bulb mode takes picture immediately) - it's similar to 0x2d
+    0x66 - shutter, but doesn't repeat 
+
+    speculation:
+    0x66 - open shutter
+    0x65 - close shutter
 
 
